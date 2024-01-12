@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Heebo';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,14 +7,14 @@ body {
 
 /* nevbar style section */
 nav {
-    padding-left:140px ;
-    padding-right:60px ;
+    padding-left: 140px;
+    padding-right: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav p{
+nav p {
     font-size: 20px;
     font-family: Heebo;
     font-weight: 500;
@@ -38,7 +38,47 @@ nav a {
     font-weight: 500;
 }
 
-nav  a:hover{
+nav a:hover {
     color: aqua;
 }
 
+/* header style section  */
+
+header {
+    padding: 0px 148px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 158px;
+    align-items: center;
+}
+
+.hero h2 {
+    color: var(--Dark-Color, #21243D);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero p {
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero button {
+    
+    border-radius: 2px;
+    border: 1px dashed #000;
+    background: var(--Primary, #FF6464);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero button a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFF;
+}
